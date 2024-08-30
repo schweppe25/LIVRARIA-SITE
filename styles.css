@@ -1,0 +1,25 @@
+@import url("header.css");
+@import url("banner.css");
+@import url("carrossel.css");
+@import url("card.css");
+@import url("tópicos.css");
+@import url("contato-footer.css");
+
+:root {
+    --cor-de-fundo: #F1E1F1;
+    --cinza: #312e2e;
+    --cinza-secundario: #474646;
+    --branco: #FFFFFF;
+    --laranja: #eb001b;sss
+    --azul-degrade: linear-gradient(97.54deg, #bc15b4cb 35.49%, #ba1699 165.37%);
+    --fonte: "Poppins";
+    --fonte--secundária: "Josefin Sans";
+    --preto: #000000;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte);
+    font-size: 16px;
+    font-weight: 400;
+}
